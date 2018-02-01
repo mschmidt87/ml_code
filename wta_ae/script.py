@@ -25,7 +25,7 @@ parser.add_argument('--seed', type=int, default=1, metavar='seed',
                     help='random seed (default: 1)')
 parser.add_argument('--output-path', type=str, metavar='output_path',
                     default=str(time.time()),
-                    help='path to store either the reconstructed figure (reconstruct mode)')
+                    help='path to store the reconstructed figure (reconstruct mode)')
 parser.add_argument('--mnist_index', type=int, default=0, metavar='mnist_index',
                     help='index of the figure in the MNIST dataset to be reconstructed')
 parser.add_argument('--model-path', type=str, metavar='model_path',
