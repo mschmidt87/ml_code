@@ -41,11 +41,11 @@ input and output layers have the dimension of 784 because MNIST images have size
 This figure shows the original mnist validation figures in the top row and the reconstructed figures from
 all three models in the lower rows in the following order (from top to bottom): Default model without LWTA mechanism, deterministic LWTA and probabilistic LWTA. This script is produced by `create_comparison_figure.py`.
 
-![Performance comparison](https://github.com/mschmidt87/wta_ae/blob/master/comparison.png)
+![Performance comparison](comparison.png)
 
 This figures shows the trajectory of the loss on the validation data for all three models and two different learning rates over 5000 steps. It is produced by `compare_learning.py`.
 
-![Loss trajectory](https://github.com/mschmidt87/wta_ae/blob/master/compare_learning.png)
+![Loss trajectory](compare_learning.png)
 
 ### Manual
 
